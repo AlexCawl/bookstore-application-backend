@@ -3,7 +3,4 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-!/.idea/gradle.xml
-!/.idea/misc.xml
-!/.idea/vcs.xml
-!/.idea/
+/.idea/
