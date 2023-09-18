@@ -1,4 +1,4 @@
-package org.alexcawl.bookstore.core.feature
+package org.alexcawl.bookstore.feature
 
 import org.springframework.context.annotation.Bean
 import org.springframework.stereotype.Component

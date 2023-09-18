@@ -13,5 +13,8 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "bookstore-app-backend"
-include(":core")
-include("feature")
+include(":application")
+include(":feature")
+include(":core:api")
+include(":core:configuration")
+include(":core:db")
