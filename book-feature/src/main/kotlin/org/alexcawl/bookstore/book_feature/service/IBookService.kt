@@ -8,4 +8,12 @@ interface IBookService {
     suspend fun getBook(id: UUID): BookModel?
 
     fun getBooks(): Flow<BookModel>
+
+    suspend fun editBook(id: UUID, book: BookModel): BookModel?
+
+    fun editBooks(books: List<BookModel>): Flow<BookModel>
+
+    suspend fun addBook(book: BookModel)
+
+    suspend fun removeBook(id: UUID)
 }
