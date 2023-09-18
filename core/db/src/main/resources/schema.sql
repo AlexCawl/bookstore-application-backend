@@ -7,6 +7,12 @@ CREATE TABLE IF NOT EXISTS books (
     author VARCHAR(255) NOT NULL
 );
 
+INSERT INTO books (id, name, description, price, author) VALUES ( RANDOM_UUID(), '1', '1', 1.0, 'mick' );
+INSERT INTO books (id, name, description, price, author) VALUES ( RANDOM_UUID(), '2', '2', 2.0, 'mick' );
+INSERT INTO books (id, name, description, price, author) VALUES ( RANDOM_UUID(), '3', '3', 3.0, 'mick' );
+INSERT INTO books (id, name, description, price, author) VALUES ( RANDOM_UUID(), '4', '4', 4.0, 'mick' );
+INSERT INTO books (id, name, description, price, author) VALUES ( RANDOM_UUID(), '5', '5', 5.0, 'mick' );
+
 DROP TABLE IF EXISTS users;
 CREATE TABLE IF NOT EXISTS users (
      id UUID PRIMARY KEY NOT NULL,
